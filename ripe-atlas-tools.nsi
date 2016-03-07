@@ -40,8 +40,8 @@ Section
 
     File ripe-atlas-tools.bat
 
-    CreateShortCut "$DESKTOP\${MUI_PRODUCT}.lnk" "$INSTDIR\ripe-atlas-tools.bat" "" "$INSTDIR\ncc.ico"
-    CreateShortCut "$SMPROGRAMS\${MUI_PRODUCT}.lnk" "$INSTDIR\ripe-atlas-tools.bat" "" "$INSTDIR\ncc.ico"
+    CreateShortCut "$DESKTOP\${MUI_PRODUCT}.lnk" "cmd" '/k "$INSTDIR\ripe-atlas-tools.bat"' "$INSTDIR\ncc.ico"
+    CreateShortCut "$SMPROGRAMS\${MUI_PRODUCT}.lnk" "cmd" '/k "$INSTDIR\ripe-atlas-tools.bat"' "$INSTDIR\ncc.ico"
 
     WriteRegStr HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\RipeAtlasTools" "DisplayName" "${MUI_PRODUCT}"
     WriteRegStr HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\RipeAtlasTools" "UninstallString" "$INSTDIR\uninstaller.exe"

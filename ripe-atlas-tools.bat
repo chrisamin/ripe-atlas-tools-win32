@@ -1,5 +1,6 @@
 @echo off
 
+mode 84,50
 title RIPE Atlas Tools
 prompt $$$S
 cd /d "%LOCALAPPDATA%\Programs\Ripe Atlas Tools\ripe-atlas"
@@ -14,5 +15,4 @@ if not EXIST "%USERPROFILE%\.config\ripe-atlas-tools\" (
 )
 
 ripe-atlas --help
-cmd /k
 echo on
