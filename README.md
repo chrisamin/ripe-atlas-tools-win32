@@ -5,6 +5,6 @@ The tools in this repository simply use [pyinstaller](http://www.pyinstaller.org
 
 You can try the released installer here:
 
-https://github.com/chrisamin/ripe-atlas-tools-win32/releases/download/0.1/RipeAtlasToolsSetup.exe
+https://github.com/chrisamin/ripe-atlas-tools-win32/releases/download/v0.1.1/RipeAtlasToolsSetup.exe
 
 Keep in mind that this is currently a preview release and there will probably be bugs! Please let me know if you find them.
