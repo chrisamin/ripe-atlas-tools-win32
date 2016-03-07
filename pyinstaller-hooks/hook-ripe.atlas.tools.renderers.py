@@ -24,6 +24,6 @@ datas = [
     (tmp.name, ""),
     (
         os.path.join(templates_dir, "*"),
-        "ripe/atlas/tools/renderers/templates",
+        "ripe/atlas/tools/renderers/templates/reports",
     ),
 ]
